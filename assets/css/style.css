@@ -13,6 +13,12 @@ body {
 
 /* Headings and logo */
 
+header {
+    background-color: #1b4685;
+    height: 125px;
+    color:white;
+}
+
 h1, h2, h3 {
     font-family: DM Serif Display, Helvetica, sans-serif;
     font-weight: 300px;
@@ -21,4 +27,39 @@ h1, h2, h3 {
     letter-spacing: 2px;
 }
 /* Need to decide text font for headings and p text also color */
+
+#logo {
+    float: left;
+    
+}
+
+
+
+#menu {
+    float:right;
+    letter-spacing: 2px;
+
+}
+
+#menu, #logo {
+    line-height: 125px;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 125px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-size:large;
+
+}
+
 
