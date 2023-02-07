@@ -63,4 +63,13 @@ h1, h2, h3 {
 
 }
 
+/* Main image */
+
+#main-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/virus-gcc931dec2_1920.jpg') no-repeat center center;
+    
+}
+
 
