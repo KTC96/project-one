@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     border: none;
 }
+
 body {
     font-family: DM sans, Helvetica, sans-serif;
-    font-weight: 400px;
+    font-weight: 200px;
     color: black
 }
 
@@ -16,33 +17,38 @@ body {
 header {
     background-color: #1b4685;
     height: 125px;
-    color:white;
+    color: white;
 }
 
-h1, h2, h3 {
-    font-family: DM Serif Display, Helvetica, sans-serif;
-    font-weight: 300px;
+h1,
+h2,
+h3 {
+    font-family: DM Mono, Helvetica, sans-serif;
+    font-weight: 200px;
     color: black;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 /* Need to decide text font for headings and p text also color */
 
 #logo {
     float: left;
     margin-left: 25px;
-    
+    height: 125px;
+
+
 }
 
 
 
 #menu {
-    float:right;
+    float: right;
     letter-spacing: 2px;
 
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 125px;
 }
 
@@ -59,7 +65,7 @@ h1, h2, h3 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    font-size:100%;
+    font-size: 100%;
 
 }
 
@@ -77,7 +83,7 @@ h1, h2, h3 {
     height: 500px;
     width: 100%;
     background: url('../images/virus-gcc931dec2_1920.jpg') no-repeat center center;
-    
+
 }
 
 #main-image:hover {
@@ -85,11 +91,35 @@ h1, h2, h3 {
     width: 100%;
     background: url('../images/bacteria-g80308695d_1920.jpg') no-repeat center center;
     transition-duration: 1s;
-    
-    
+
+
 }
 
-#main-image:not(:hover){
+#main-image:not(:hover) {
     transition-duration: 1s;
 }
 
+/* Image cover */
+
+#main-cover {
+    font-size: 100%;
+    font-family: DM sans Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align:center;
+    
+
+    width: 250px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-right:10px;
+
+    bottom: 200px;
+    right: 150px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    position: absolute;
+
+}
