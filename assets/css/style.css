@@ -63,6 +63,14 @@ h1, h2, h3 {
 
 }
 
+#menu a:hover {
+    border-bottom: 1px solid white;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
 /* Main image */
 
 #main-image {
@@ -72,4 +80,16 @@ h1, h2, h3 {
     
 }
 
+#main-image:hover {
+    height: 500px;
+    width: 100%;
+    background: url('../images/bacteria-g80308695d_1920.jpg') no-repeat center center;
+    transition-duration: 1s;
+    
+    
+}
+
+#main-image:not(:hover){
+    transition-duration: 1s;
+}
 
