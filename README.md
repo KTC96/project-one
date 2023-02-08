@@ -4,8 +4,25 @@ Learno-Path is a scientific website focused on educating individuals who want to
 
 ## Contents
 
-[User Experience](##user-experience)
-[Deployment](##deployment)
+1. [User Experience](#user-experience)
+   * [User Stories](#user-stories)
+2. [Design](#design)
+   * [Colour Scheme](#colour-scheme)
+   * [Typography](#typography)
+   * [Imagery](#imagery)
+   * [Wireframes](#wireframes)
+3. [Features](#features)
+   * [Future Implementations](#future-implementations)
+   * [Accesibility](#accesibility)
+4. [Technologies](#technologies)
+   * [Languages](#languages)
+   * [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+   * [Code](#code)
+   * [Content](#c)
+
 
 ## User Expeirence
 
