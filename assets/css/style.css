@@ -10,7 +10,7 @@
 body {
     font-family: DM sans, Helvetica, sans-serif;
     font-weight: 200px;
-    color: black
+    color: white;
 }
 
 /* Headings and logo */
@@ -102,26 +102,26 @@ h3 {
 
 /* Image cover */
 
-#main-cover  {
+#main-cover {
     font-size: 100%;
     font-family: DM sans Helvetica, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-align:center;
+    text-align: center;
     color: white;
-    
-    
+
+
 
     width: 250px;
     height: 150px;
 
     padding-top: 40px;
-    padding-right:10px;
+    padding-right: 10px;
 
     bottom: 325px;
     right: 200px;
 
-    background-color: rgba(27,70,133, 0.5);
+    background-color: rgba(27, 70, 133, 0.5);
 
     position: absolute;
 
@@ -129,17 +129,16 @@ h3 {
 
 /*Why you should learn with us and card styling */
 
-br {
-    background-color: #1b4685;
+.microscope-image {
+    background: url('../images/dna-gdc2c12b5b_1920.jpg') no-repeat center center;
+
 }
-.blue-background {
-    background-color: #1b4685;
-}
-div > h2 {
-    color:white;
+
+
+div>h2 {
+    color: white;
     text-align: center;
     text-transform: capitalize;
-    text-decoration: underline;
     font-size: 200%;
 }
 
@@ -148,31 +147,82 @@ div > h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
-  }
-  
-  .card {
+}
+
+.card {
     width: calc(33.33% - 20px);
-    background-color: #fff;
+    background-color: #1b4685;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 20px;
-  }
-  
-  
-  .card h2 {
+    text-align: center;
+}
+
+
+.card h2 {
     font-size: 18px;
     margin: 20px;
-  }
-  
-  .card p {
+}
+
+.card p {
     font-size: 14px;
-    color: #fff;
+    color: white;
     margin: 20px;
     line-height: 1.5;
-  }
-  
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* About section */
+
+.about {
+    height: 600px;
+}
+
+.profile-image-container {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: #1b4685;
+    
+   
+    
+}
+
+.profile-image {
+    background: url('../images/IMG_20221201_170824_241.jpg') no-repeat left center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+    background-color: #1b4685;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    margin: 5%;
+    color: white;
+    text-decoration: none;
+    
+    
+}
