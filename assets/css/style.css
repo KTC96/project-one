@@ -19,6 +19,9 @@ header {
     background-color: #1b4685;
     height: 125px;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 h1,
@@ -40,21 +43,15 @@ h3 {
 
 }
 
-
-
-#menu {
-    float: right;
-    letter-spacing: 2px;
-
-}
-
 #menu,
 #logo {
     line-height: 125px;
 }
 
 #menu ul {
-    float: right;
+    display: flex;
+    flex-direction: row;
+
 }
 
 #menu li {
@@ -126,6 +123,15 @@ h3 {
     position: absolute;
 
 }
+/* Pathogens Video*/
+
+.pathogens-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 /*Why you should learn with us and card styling */
 
@@ -134,7 +140,11 @@ h3 {
 
 }
 
-
+.why {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 div>h2 {
     color: white;
     text-align: center;
@@ -180,6 +190,7 @@ div>h2 {
 
 .about {
     height: 600px;
+    display: flex;
 }
 
 .profile-image-container {
@@ -226,3 +237,23 @@ footer {
     
     
 }
+
+/*Bacteria page */
+
+.bacteria img {
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.bacteria h2 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
