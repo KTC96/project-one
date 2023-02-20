@@ -136,7 +136,8 @@ h3 {
 /*Why you should learn with us and card styling */
 
 .microscope-image {
-    background: url('../images/dna-gdc2c12b5b_1920.jpg') no-repeat center center;
+    background: url('../images/dna.jpg') no-repeat center center;
+    background-size: cover;
 
 }
 
@@ -144,6 +145,8 @@ h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    background-color: #1b4685;
+    
 }
 div>h2 {
     color: white;
@@ -243,17 +246,54 @@ footer {
 .bacteria img {
     height: 300px;
     width: 300px;
-    margin-left: 25px;
+    
+   
+}
+
+.bacteria {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+ 
+} 
+
+/* Virus page */
+
+
+
+.rabies {
+    display: flex;
+    justify-content: flex-start;
+ 
+} 
+
+.hiv {
+    display: flex;
+    justify-content: flex-start;
 
 }
 
-.bacteria h2 p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.hiv img {
+    height: 315px;
+    width: 500px;
 }
+
+.covid { 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.covid img {
+    height: 315px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
 
 
