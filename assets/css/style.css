@@ -287,7 +287,21 @@ footer {
     width: 500px;
 }
 
+/* Quiz page */
 
+.quiz-question h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.quiz-question {
+    margin-left: 20px;
+}
+
+
+  
 
 
 
