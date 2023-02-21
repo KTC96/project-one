@@ -123,6 +123,7 @@ h3 {
     position: absolute;
 
 }
+
 /* Pathogens Video*/
 
 .pathogens-video {
@@ -146,8 +147,9 @@ h3 {
     justify-content: center;
     margin-bottom: 50px;
     background-color: #1b4685;
-    
+
 }
+
 div>h2 {
     color: white;
     text-align: center;
@@ -206,9 +208,9 @@ div>h2 {
     border-radius: 50%;
     margin-left: 20px;
     background-color: #1b4685;
-    
-   
-    
+
+
+
 }
 
 .profile-image {
@@ -228,7 +230,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -237,8 +239,8 @@ footer {
     margin: 5%;
     color: white;
     text-decoration: none;
-    
-    
+
+
 }
 
 /*Bacteria page */
@@ -246,15 +248,15 @@ footer {
 .bacteria img {
     height: 300px;
     width: 300px;
-    
-   
+
+
 }
 
 .bacteria {
     display: flex;
     justify-content: flex-start;
- 
-} 
+
+}
 
 /* Virus page */
 
@@ -263,8 +265,8 @@ footer {
 .rabies {
     display: flex;
     justify-content: flex-start;
- 
-} 
+
+}
 
 .hiv {
     display: flex;
@@ -277,7 +279,7 @@ footer {
     width: 500px;
 }
 
-.covid { 
+.covid {
     display: flex;
     justify-content: flex-start;
 }
@@ -289,6 +291,11 @@ footer {
 
 /* Quiz page */
 
+.quiz {
+    display: flex;
+    width: 50%;
+}
+
 .quiz-question h2 {
     font-size: 18px;
     margin-bottom: 10px;
@@ -298,16 +305,44 @@ footer {
 
 .quiz-question {
     margin-left: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+    max-width: 400px;
+    padding: 30px;
+    
+
+}
+
+.quiz-container {
+    display: flex;
+}
+
+.quiz-container div {
+    flex:1;
 }
 
 
-  
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #1b4685;
+    color: #fafafa;
+    display: block;
+}
 
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #1b4685
+}
 
+.conditions {
+    height: 200px;
+    overflow: scroll;
+}
 
-
-
-
-
-
-
+.quiz-terms img {
+    height: 300px;
+    width: 500px;
+}
