@@ -110,7 +110,7 @@ h3 {
 
 
     width: 250px;
-    height: 150px;
+    height: 200px;
 
     padding-top: 20px;
     padding-right: 10px;
@@ -136,6 +136,8 @@ h3 {
 
 /*Why you should learn with us and card styling */
 
+
+
 .microscope-image {
     background: url('../images/dna.jpg') no-repeat center center;
     background-size: cover;
@@ -146,7 +148,10 @@ h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    background-color: #1b4685;
+    background-color: rgba(27, 70, 133, 0.6);
+    width: 50%;
+    margin:auto;
+    
 
 }
 
@@ -194,8 +199,9 @@ div>h2 {
 /* About section */
 
 .about {
-    height: 600px;
-    display: flex;
+    margin: auto;
+    background-color: rgba(27, 70, 133, 0.6);
+    margin-bottom: 20px;
 }
 
 .profile-image-container {
@@ -209,9 +215,9 @@ div>h2 {
     margin-left: 20px;
     background-color: #1b4685;
 
-
-
 }
+
+
 
 .profile-image {
     background: url('../images/IMG_20221201_170824_241.jpg') no-repeat left center;
@@ -245,16 +251,21 @@ footer {
 
 /*Bacteria page */
 
+
 .bacteria {
     height: 250px;
-    width: 300px ;
+    max-width: 300px;
+    min-width: 300px;
 
 
 }
 
+
+
 .TB {
     display: flex;
     justify-content: flex-start;
+    padding-left: 20px;
 
 }
 
@@ -264,12 +275,30 @@ footer {
     background-color: rgba(27, 70, 133, 0.6);
 }
 
+.microscope-image h2 {
+    padding-left: 20px;
+}
+
 .strep {
     display: flex;
     justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .strep p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+.syphilis {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.syphilis p {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(27, 70, 133, 0.6);
@@ -287,6 +316,16 @@ footer {
 
 }
 
+.rabies p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+iframe {
+    padding-left: 20px;
+}
+
 .hiv {
     display: flex;
     justify-content: flex-start;
@@ -294,8 +333,16 @@ footer {
 }
 
 .hiv img {
-    height: 315px;
-    width: 500px;
+    height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    padding-left: 20px;
+}
+
+.hiv p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
 }
 
 .covid {
@@ -304,8 +351,15 @@ footer {
 }
 
 .covid img {
-    height: 315px;
-    width: 500px;
+    height: 300px;
+    max-width: 300px;
+    padding-left: 20px;
+}
+
+.covid p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
 }
 
 /* Quiz page */
@@ -315,11 +369,12 @@ footer {
     width: 50%;
 }
 
-.quiz-question  h2 {
+.quiz-question >  h2 {
     font-size: 18px;
     margin-bottom: 10px;
     display: flex;
     justify-content: flex-start;
+   
 }
 
 .quiz-question {
@@ -359,6 +414,7 @@ footer {
 .conditions {
     height: 200px;
     overflow: scroll;
+    background-color: rgba(27, 70, 133, 0.7);
 }
 
 .quiz-terms img {
