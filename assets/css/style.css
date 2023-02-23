@@ -374,6 +374,92 @@ iframe {
     background-color: rgba(27, 70, 133, 0.6);
 }
 
+/*Fungi page */
+
+
+.fungi {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 20px;
+}
+.candida {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.candida p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+.murcomycosis {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.murcomycosis p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+.auris {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.auris p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+/* Parasites Page */
+
+.parasites {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 20px;
+}
+.malaria {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.malaria p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+.schisto {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.schisto p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+.sleeping-sickness {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.sleeping-sickness p {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+
 /* Quiz page */
 
 .quiz {
