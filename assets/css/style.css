@@ -202,7 +202,18 @@ div>h2 {
     margin: auto;
     background-color: rgba(27, 70, 133, 0.6);
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
+
+.about p {
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
 
 .profile-image-container {
     height: 200px;
@@ -223,6 +234,7 @@ div>h2 {
     background: url('../images/IMG_20221201_170824_241.jpg') no-repeat left center;
     height: 100%;
     border-radius: 50%;
+
 }
 
 /* Footer */
