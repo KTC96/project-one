@@ -272,6 +272,11 @@ footer {
 
 }
 
+.bacteria-section h2 {
+    background-color: #1b4685;
+    text-align: center;
+}
+
 
 
 .TB {
@@ -320,7 +325,9 @@ footer {
 
 /* Virus page */
 
-
+.virus-section h2 {
+    background-color: #1b4685;
+}
 
 .rabies {
     display: flex;
@@ -336,7 +343,9 @@ footer {
 
 iframe {
     padding-left: 20px;
+    margin: auto;
 }
+
 
 .hiv {
     display: flex;
@@ -349,6 +358,7 @@ iframe {
     max-width: 300px;
     min-width: 300px;
     padding-left: 20px;
+    margin: auto;
 }
 
 .hiv p {
@@ -366,6 +376,7 @@ iframe {
     height: 300px;
     max-width: 300px;
     padding-left: 20px;
+    margin: auto;
 }
 
 .covid p {
