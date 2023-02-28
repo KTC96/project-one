@@ -67,6 +67,12 @@ h3 {
 
 }
 
+#menu {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 #menu a:hover {
     border-bottom: 1px solid white;
 }
@@ -111,6 +117,7 @@ h3 {
 
     width: 250px;
     height: 200px;
+    
 
     padding-top: 20px;
     padding-right: 10px;
@@ -548,3 +555,46 @@ footer {
     height: 300px;
     width: 500px;
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 1920px){
+    
+}
+
+@media screen and (max-width: 900px){
+    #menu {
+        font-size: 75%;
+    }
+    .card-container {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .card {
+        width: 65%;
+    }
+       
+}
+
+@media screen and (max-width: 810px){
+    #menu {
+        font-size: 65%;
+    }
+}
+
+@media screen and (max-width: 760px){
+    #menu li {
+        margin-right: 20px;
+   
+    }
+}
+
+@media screen and (max-width: 570px){
+    #menu li {
+        margin-right: 15px;
+    }
+}
+
