@@ -274,7 +274,7 @@ footer {
 
 .bacteria-section h2 {
     background-color: #1b4685;
-    text-align: center;
+    
 }
 
 
@@ -387,11 +387,17 @@ iframe {
 
 /*Fungi page */
 
+.fungi-section h2 {
+    background-color: #1b4685;
+}
+
 
 .fungi {
     max-width: 300px;
     max-height: 300px;
-    margin-left: 20px;
+    margin: auto;
+    padding-left: 20px;
+
 }
 .candida {
     display: flex;
@@ -416,13 +422,14 @@ iframe {
     background-color: rgba(27, 70, 133, 0.6);
 }
 
-.auris {
+.neoformans {
     display: flex;
     justify-content: flex-start;
+    padding-bottom: 20px;
     
 }
 
-.auris p {
+.neoformans p {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(27, 70, 133, 0.6);
