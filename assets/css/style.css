@@ -37,7 +37,7 @@ h3 {
 
 #logo {
     float: left;
-    margin-left: 25px;
+    margin-left: 15px;
     height: 125px;
 
 
@@ -105,6 +105,7 @@ h3 {
 
 /* Image cover */
 
+
 #main-cover {
     font-size: 100%;
     font-family: DM sans Helvetica, sans-serif;
@@ -112,23 +113,14 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     color: white;
-
-
-
-    width: 250px;
-    height: 200px;
-    
-
-    padding-top: 20px;
-    padding-right: 10px;
-
-    bottom: 200px;
-    right: 200px;
-
     background-color: rgba(27, 70, 133, 0.5);
-
     position: absolute;
-
+    bottom: 50%;
+    right: 5%;
+    width: 90%;
+    height: auto;
+    max-width: 350px;
+    padding: 20px 10px;
 }
 
 /* Pathogens Video*/
@@ -220,8 +212,6 @@ div>h2 {
     text-align: justify;
 }
 
-
-
 .profile-image-container {
     height: 200px;
     width: 200px;
@@ -232,17 +222,17 @@ div>h2 {
     border-radius: 50%;
     margin-left: 20px;
     background-color: #1b4685;
-
 }
-
-
 
 .profile-image {
-    background: url('../images/IMG_20221201_170824_241.jpg') no-repeat left center;
+    background: url('../images/IMG_20221201_170824_241.jpg') no-repeat center center;
+    background-size: cover;
     height: 100%;
     border-radius: 50%;
-
+    overflow: hidden;
 }
+
+
 
 /* Footer */
 
@@ -574,7 +564,7 @@ footer {
     }
 
     .card {
-        width: 65%;
+        width: 100%;
     }
        
 }
@@ -590,11 +580,53 @@ footer {
         margin-right: 20px;
    
     }
+    #logo {
+        margin-left: 0;
+
+    }
+  
 }
 
 @media screen and (max-width: 570px){
     #menu li {
         margin-right: 15px;
+        
     }
 }
 
+@media screen and (max-width: 511px) {
+    #logo {
+        display: none;
+    }
+    #menu li {
+        text-align: center;
+        margin-right: 10px;
+    }
+    .about p {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .profile-image-container {
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
+    }
+}
+   
+
+
+@media only screen and (max-width: 1300px) {
+    .about {
+        flex-direction: column;
+    }
+    .about p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .profile-image-container {
+        height: 150px;
+        width: 150px;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
