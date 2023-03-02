@@ -444,6 +444,15 @@ footer {
 }
 
 
+
+figcaption {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: rgba(27, 70, 133, 0.6);
+}
+
+
 .parasites {
     max-width: 300px;
     min-height: 300px;
@@ -485,6 +494,7 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(27, 70, 133, 0.6);
+    height: 100%;
 }
 
 
@@ -642,7 +652,7 @@ footer {
         height: auto;
         max-width: 50%;
         min-width: 0;
-        
+
     }
 
     .bacteria-section h2 {
@@ -685,7 +695,8 @@ footer {
     }
 
 
-    .hiv img, .covid img {
+    .hiv img,
+    .covid img {
         height: auto;
         max-width: 50%;
         min-width: 0;
@@ -753,8 +764,15 @@ footer {
         max-width: 50%;
         max-height: auto;
         padding-left: 0;
-    
+
     }
+
+    figcaption {
+        padding-left: 20px;
+
+
+    }
+
 
     .malaria,
     .schisto,
