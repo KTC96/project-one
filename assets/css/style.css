@@ -51,27 +51,28 @@ h3 {
 #menu ul {
     display: flex;
     flex-direction: row;
-
-}
-
-#menu li {
+  }
+  
+  #menu li {
     float: left;
     list-style-type: none;
     margin-right: 50px;
-}
-
-#menu a {
+  }
+  
+  #menu a {
     text-decoration: none;
     color: inherit;
     font-size: 100%;
-
-}
-
-#menu {
+  }
+  
+  #menu {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+  }
+  
+
+  
 
 #menu a:hover {
     border-bottom: 1px solid white;
@@ -590,16 +591,18 @@ figcaption {
         font-size: 75%;
     }
 
-    .card-container {
+    .card-container, .why {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .card {
+    .card, .why {
         width: 100%;
     }
+
+    
 
 }
 
@@ -620,8 +623,13 @@ figcaption {
 
     }
 
+    #menu li {
+        margin-right: 30px;
+      }
+
 }
 
+  
 @media screen and (max-width: 570px) {
     #menu li {
         margin-right: 15px;
@@ -669,6 +677,8 @@ figcaption {
         margin-left: 0;
         margin-right: 20px;
     }
+
+   
 
     /* Bacteria Page */
     .bacteria {
