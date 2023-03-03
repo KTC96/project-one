@@ -37,7 +37,8 @@ h3 {
 /* Need to decide text font for headings and p text also color */
 
 #logo {
-    float: left;
+    display: flex;
+    justify-content: flex-start;
     margin-left: 15px;
     height: 125px;
 
@@ -636,13 +637,13 @@ figcaption {
 /* Medium screen sizes */
 
 
-@media screen and (min-width: 749px) {
+@media screen and (min-width: 1059px) {
     .hamburger-wrapper {
         display: none;
     }
 }
 
-@media screen and (max-width:748px) {
+@media screen and (max-width:1058px) {
     nav {
         display: none;
     }
