@@ -282,6 +282,7 @@ footer h3 {
 .bacteria-section h2 {
     background-color: #1b4685;
     margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -336,6 +337,7 @@ footer h3 {
 .virus-section h2 {
     background-color: #1b4685;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .rabies {
@@ -399,6 +401,7 @@ footer h3 {
 .fungi-section h2 {
     background-color: #1b4685;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -451,6 +454,7 @@ footer h3 {
 .parasite-section h2 {
     background-color: #1b4685;
     margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -757,6 +761,8 @@ figcaption {
 
     .bacteria-section h2 {
         font-size: 24px;
+        margin-left:0;
+        margin-right:0;
     }
 
     .TB,
@@ -786,6 +792,8 @@ figcaption {
 
     .virus-section h2 {
         font-size: 24px;
+        margin-left: 0;
+        margin-right:0;
     }
 
     .virus-section iframe {
@@ -832,6 +840,8 @@ figcaption {
 
     .fungi-section h2 {
         font-size: 24px;
+        margin-left: 0;
+        margin-right:0;
     }
 
     .candida,
@@ -852,6 +862,8 @@ figcaption {
 
     .parasite-section h2 {
         font-size: 24px;
+        margin-left:0;
+        margin-right:0;
     }
 
     .parasite-section iframe {
