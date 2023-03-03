@@ -65,6 +65,8 @@ Learno-Path is a scientific website focused on educating individuals who want to
 
 ## Technologies
 
+[![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?lineCount=1&line1=HTML5,HTML5,ecbb4d;CSS3,CSS3,7ed0cf;JavaScript,JavaScript,5cd89d;)](https://github-readme-tech-stack.vercel.app/api/cards?lineCount=1&line1=HTML5,HTML5,ecbb4d;CSS3,CSS3,7ed0cf;JavaScript,JavaScript,5cd89d;)
+
 ### Languages
 
 * HTML: HTML was used to create the basic architecture of the Learno-Path website.

@@ -29,7 +29,7 @@ h1,
 h2,
 h3 {
     font-family: DM Mono, Helvetica, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: white;
     letter-spacing: 2px;
 }
@@ -52,28 +52,28 @@ h3 {
 #menu ul {
     display: flex;
     flex-direction: row;
-  }
-  
-  #menu li {
+}
+
+#menu li {
     float: left;
     list-style-type: none;
     margin-right: 50px;
-  }
-  
-  #menu a {
+}
+
+#menu a {
     text-decoration: none;
     color: inherit;
     font-size: 100%;
-  }
-  
-  #menu {
+}
+
+#menu {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-  
+}
 
-  
+
+
 
 #menu a:hover {
     border-bottom: 1px solid white;
@@ -238,12 +238,17 @@ div>h2 {
 
 /* Footer */
 
-footer, h3 {
+footer {
     height: 50%;
     background-color: #1b4685;
+
+}
+
+footer h3 {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 100%;
+
 }
 
 .social-networks {
@@ -446,7 +451,7 @@ footer, h3 {
 .parasite-section h2 {
     background-color: #1b4685;
     margin-left: 20px;
-    
+
 }
 
 .parasite-section iframe {
@@ -516,21 +521,21 @@ figcaption {
     font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
-    
-    
+
+
 
 }
 
 
-.quiz-question  {
+.quiz-question {
     margin-left: 20px;
     background-color: rgba(27, 70, 133, 0.6);
     max-width: 400px;
     padding: 30px;
     margin: 20px;
     overflow: scroll;
-    
-    
+
+
     text-align: left;
 
 
@@ -541,8 +546,8 @@ figcaption {
 .quiz-container {
     display: flex;
     height: 700px;
-    
-    
+
+
 }
 
 .quiz-container div {
@@ -576,7 +581,7 @@ figcaption {
     max-height: 300px;
     max-width: 300px;
     margin: 20px 0 20px 0;
-    
+
 }
 
 .winner-image {
@@ -587,74 +592,29 @@ figcaption {
 
 .quiz-terms {
     padding: 20px;
-    
-    
+
+
 }
 
 /*Media Queries*/
 
+/* Small screen sizes */
 
-
-@media screen and (max-width: 900px) {
-    #menu {
-        font-size: 75%;
+@media only screen and (max-width: 416px) {
+    #main-cover {
+        width: 85%;
+        right: 0%;
+        max-width: none;
+        margin: 0 5%;
     }
 
-    .card-container, .why {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .card, .why {
-        width: 100%;
-    }
-
-    
-
-}
-
-@media screen and (max-width: 810px) {
-    #menu {
-        font-size: 65%;
-    }
-}
-
-@media screen and (max-width: 760px) {
-    #menu li {
-        margin-right: 20px;
-
-    }
-
-    #logo {
-        margin-left: 0;
-
-    }
-
-    #menu li {
-        margin-right: 30px;
-      }
-
-}
-
-  
-@media screen and (max-width: 570px) {
-    #menu li {
-        margin-right: 15px;
-
+    #main-cover h3 {
+        font-size: 90%;
     }
 }
 
 @media screen and (max-width: 511px) {
-    #logo {
-        display: none;
-    }
 
-    #menu li {
-        text-align: center;
-
-    }
 
     .about p {
         font-size: 14px;
@@ -669,6 +629,106 @@ figcaption {
 }
 
 
+/* Medium screen sizes */
+
+
+@media screen and (min-width: 749px) {
+    .hamburger-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width:748px) {
+    nav {
+        display: none;
+    }
+
+    /*Hamburger Menu*/
+    .bars,
+    #menu {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #DFDEE0;
+        margin: 45px 5% 0 0;
+    }
+
+    .fa-bars,
+    .fa-times {
+        font-size: 25px;
+    }
+
+    .fa-times {
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+    }
+
+    .hamburgermenu {
+        width: 160px;
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #365C96;
+        padding: 2%;
+        margin: 0;
+        z-index: 4;
+        animation: open 1.3s ease forwards;
+    }
+
+    @keyframes open {
+        0% {
+            transform: translateX(120%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .hamburgermenu li {
+        list-style: none;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    .hamburgermenu a {
+        width: 100%;
+        text-decoration: none;
+        color: #DFDEE0;
+    }
+
+    .hamburgermenu .close {
+        width: 20px;
+        height: 20px;
+        font-size: 100%;
+        margin: 3% 4% 0 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .card-container,
+    .why {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card,
+    .why {
+        width: 100%;
+    }
+
+
+}
+
+/* Large screen sizes */
 
 @media only screen and (max-width: 1200px) {
     .about {
@@ -686,8 +746,6 @@ figcaption {
         margin-left: 0;
         margin-right: 20px;
     }
-
-   
 
     /* Bacteria Page */
     .bacteria {
@@ -833,10 +891,6 @@ figcaption {
         margin-right: 0;
         margin-top: 20px;
     }
-
-
-
-
 
 
 }
