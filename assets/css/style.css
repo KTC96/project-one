@@ -11,6 +11,7 @@ body {
     font-family: DM sans, Helvetica, sans-serif;
     font-weight: 200;
     color: white;
+    height: 100%;
 }
 
 /* Headings and logo */
@@ -87,14 +88,14 @@ h3 {
 #main-image {
     height: 500px;
     width: 100%;
-    background: url('../images/virus-gcc931dec2_1920.jpg') no-repeat center center;
+    background: url('../images/virus-main.jpg') no-repeat center center;
 
 }
 
 #main-image:hover {
     height: 500px;
     width: 100%;
-    background: url('../images/bacteria-g80308695d_1920.jpg') no-repeat center center;
+    background: url('../images/bacteria-main.jpg') no-repeat center center;
     transition-duration: 1s;
 
 
@@ -138,7 +139,7 @@ h3 {
 
 
 
-.microscope-image {
+.dna-background {
     background: url('../images/dna.jpg') no-repeat center center;
     background-size: cover;
 
@@ -226,7 +227,7 @@ div>h2 {
 }
 
 .profile-image {
-    background: url('../images/IMG_20221201_170824_241.jpg') no-repeat center center;
+    background: url('../images/kyle-image.jpg') no-repeat center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
@@ -237,9 +238,12 @@ div>h2 {
 
 /* Footer */
 
-footer {
-    height: 150px;
+footer, h3 {
+    height: 50%;
     background-color: #1b4685;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 100%;
 }
 
 .social-networks {
@@ -251,8 +255,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 100%;
-    margin: 5%;
+    font-size: 25px;
+    margin: 2.5%;
     color: white;
     text-decoration: none;
 
@@ -272,6 +276,7 @@ footer {
 
 .bacteria-section h2 {
     background-color: #1b4685;
+    margin-left: 20px;
 
 }
 
@@ -325,6 +330,7 @@ footer {
 
 .virus-section h2 {
     background-color: #1b4685;
+    margin-left: 20px;
 }
 
 .rabies {
@@ -387,6 +393,7 @@ footer {
 
 .fungi-section h2 {
     background-color: #1b4685;
+    margin-left: 20px;
 }
 
 
@@ -438,6 +445,8 @@ footer {
 
 .parasite-section h2 {
     background-color: #1b4685;
+    margin-left: 20px;
+    
 }
 
 .parasite-section iframe {
