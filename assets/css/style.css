@@ -114,7 +114,7 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     color: white;
-    background-color: rgba(27, 70, 133, 0.5);
+    background-color: rgba(27, 70, 133, 0.9);
     position: absolute;
     bottom: 50%;
     right: 5%;
@@ -148,7 +148,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
     width: 50%;
     margin: auto;
 
@@ -200,7 +200,7 @@ div>h2 {
 
 .about {
     margin: auto;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -297,7 +297,7 @@ footer h3 {
 .TB p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .microscope-image h2 {
@@ -313,7 +313,7 @@ footer h3 {
 .strep p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .syphilis {
@@ -326,7 +326,7 @@ footer h3 {
 .syphilis p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 
@@ -348,7 +348,7 @@ footer h3 {
 .rabies p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .virus-section iframe {
@@ -374,7 +374,7 @@ footer h3 {
 .hiv p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .covid {
@@ -392,7 +392,7 @@ footer h3 {
 .covid p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 /*Fungi page */
@@ -421,7 +421,7 @@ footer h3 {
 .candida p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .murcomycosis {
@@ -432,7 +432,7 @@ footer h3 {
 .murcomycosis p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .neoformans {
@@ -445,7 +445,7 @@ footer h3 {
 .neoformans p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 /* Parasites Page */
@@ -468,7 +468,7 @@ figcaption {
     max-width: 300px;
     margin-left: 20px;
     text-align: center;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 
@@ -488,7 +488,7 @@ figcaption {
 .malaria p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .schisto {
@@ -499,7 +499,7 @@ figcaption {
 .schisto p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .sleeping-sickness {
@@ -512,7 +512,7 @@ figcaption {
 .sleeping-sickness p {
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
     height: 100%;
 }
 
@@ -532,7 +532,7 @@ figcaption {
 
 .quiz-question {
     margin-left: 20px;
-    background-color: rgba(27, 70, 133, 0.6);
+    background-color: rgba(27, 70, 133, 0.9);
     max-width: 400px;
     padding: 30px;
     margin: 20px;
@@ -577,7 +577,7 @@ figcaption {
 .conditions {
     height: 200px;
     overflow: scroll;
-    background-color: rgba(27, 70, 133, 0.7);
+    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .quiz-terms img {
