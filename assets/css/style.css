@@ -524,9 +524,6 @@ figcaption {
     font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
-
-
-
 }
 
 
@@ -535,33 +532,25 @@ figcaption {
     background-color: rgba(27, 70, 133, 0.9);
     max-width: 400px;
     padding: 30px;
-    margin: 20px;
-    overflow: scroll;
-
-
+    margin: 20px auto;
     text-align: left;
-
-
 }
-
-
 
 .quiz-container {
     display: flex;
-    height: 700px;
-
-
+    flex-direction: column;
+    align-items: center;
 }
 
 .quiz-container div {
     flex: 1;
+    width: 100%;
 }
-
 
 .submit-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 15px 32px;
     text-align: center;
     font-size: 100%;
     background-color: #1b4685;
@@ -571,33 +560,48 @@ figcaption {
 
 .submit-button:hover {
     background-color: #fafafa;
-    color: #1b4685
+    color: #1b4685;
 }
 
 .conditions {
-    height: 200px;
-    overflow: scroll;
+    max-height: 200px;
+    overflow-y: auto;
     background-color: rgba(27, 70, 133, 0.9);
+    margin-bottom: 20px;
 }
 
 .quiz-terms img {
-    max-height: 300px;
-    max-width: 300px;
-    margin: 20px 0 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.magazine-image {
+    width: 30%;
+    height: 100%;
+    max-width: 600px;
+    padding-left: 20px;
 
 }
 
 .winner-image {
-    min-width: 50%;
+    width: 70%;
     height: 100%;
+    max-width: 600px;
     padding-left: 20px;
 }
 
 .quiz-terms {
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-
+.quiz-terms h2 {
+    background-color: rgba(27, 70, 133, 0.9)
 }
+
+/* Media queries */
+
 
 /*Media Queries*/
 
@@ -630,6 +634,48 @@ figcaption {
         margin-right: 10px;
     }
 }
+
+
+@media screen and (min-width: 600px){
+    .quiz-container {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .quiz-container div {
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .winner-image {
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .quiz-terms {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .quiz-terms img {
+      margin: 20px 0;
+    }
+
+    .magazine-image {
+        width: 50%;
+    }
+
+   
+  }
+
 
 
 /* Medium screen sizes */
@@ -760,8 +806,8 @@ figcaption {
 
     .bacteria-section h2 {
         font-size: 24px;
-        margin-left:0;
-        margin-right:0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .TB,
@@ -792,7 +838,7 @@ figcaption {
     .virus-section h2 {
         font-size: 24px;
         margin-left: 0;
-        margin-right:0;
+        margin-right: 0;
     }
 
     .virus-section iframe {
@@ -840,7 +886,7 @@ figcaption {
     .fungi-section h2 {
         font-size: 24px;
         margin-left: 0;
-        margin-right:0;
+        margin-right: 0;
     }
 
     .candida,
@@ -861,8 +907,8 @@ figcaption {
 
     .parasite-section h2 {
         font-size: 24px;
-        margin-left:0;
-        margin-right:0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .parasite-section iframe {
