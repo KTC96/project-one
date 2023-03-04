@@ -34,8 +34,6 @@ h3 {
     letter-spacing: 2px;
 }
 
-/* Need to decide text font for headings and p text also color */
-
 #logo {
     display: flex;
     justify-content: flex-start;

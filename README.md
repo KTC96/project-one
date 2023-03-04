@@ -50,6 +50,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
 ## Design
 
 ### Colour Scheme
+* I used a simple color scheme of shades of blue and white to make it look clean and professional, allowing users to read the content easily.
 
 ### Typrography
 
@@ -60,6 +61,11 @@ Learno-Path is a scientific website focused on educating individuals who want to
 ## Features
 
 ### Future Implementations
+
+   * For future applications of the website I would like to include links to scientific papers so that the user can learn more in depth knowledge about the subject matter.
+   * Add a feedback feature after completing the quiz so users can check their answers.
+   * Make quiz questions randomly generate from a pool, so a wider range of knoweldge can be tested.
+   * Increase the range of material covered in the site.
 
 ### Accesibility
 
@@ -72,6 +78,8 @@ Learno-Path is a scientific website focused on educating individuals who want to
 * HTML: HTML was used to create the basic architecture of the Learno-Path website.
 
 * CSS: I used CSS to style the HTML elements, making them more eye catching to improve the user experience.
+
+* JavaScript: I used JavaScript to create a hamburger menu to allow my navigation element to be responsive at smaller screen sizes.
 
 ### Frameworks, Libraries and Programs
 
@@ -100,8 +108,12 @@ Learno-Path is a scientific website focused on educating individuals who want to
 ## Credits
 
 ### Code
-* 
-Love running, html website
+* My coursemate Mia Rasmussen showed me how to create a JavaScript hamburger style navigation menu so my site would be responsive at smaller screen sizes.
+* Creation of my nav bar as well as the general structure of the website was taken from the Love Running walkthrough tutorial.
+
+* I watched many tutorials on flexbox to help me make my website responsive and better position elements on my site.
+
+
 ### Content
 
 * The text information for each pathogen page was taken from their respective Wikipedia pages. I edited and simplified the text to make it more clear and allow it to be displayed correctly on the site. 
@@ -109,9 +121,11 @@ Love running, html website
 ### Media
 
 * The images on the home page were taken from [Pixabay](https://pixabay.com/).
-* The images on content page were taken from [Pexels](https://www.pexels.com/).
-i=lifecycle image cdc
+* The images on content page were taken from [Pexels](https://www.pexels.com/). 
+* Through Pexels I also found more suitable images using [CDC](https://www.cdc.gov/)
+* The image of T.Brucei on the parasites page was taken by myself during unviversity study.
+
 
 ### Acknowldegements 
 
-I would like to thank two of my course collegues Mia and Hope for their help in understanding some concepts. I would also like to thank my mentor Jack for checking my code and supporting me through this project. 
+I would like to thank two of my course collegues Mia Rasmussen and Hope Tracy for their help in understanding coding concepts. I would also like to thank my mentor Jack for checking my code and supporting me through this project. 
