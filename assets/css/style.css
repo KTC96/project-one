@@ -301,16 +301,6 @@ footer h3 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Virus page */
 
 .virus-section h2 {
@@ -399,8 +389,10 @@ footer h3 {
 }
 
 .parasite-section iframe {
-    padding-left: 20px;
-    margin: auto;
+    width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin-left: 20px;
 }
 
 figcaption {
@@ -409,8 +401,6 @@ figcaption {
     text-align: center;
     background-color: rgba(27, 70, 133, 0.9);
 }
-
-
 
 
 .malaria, .schisto, .sleeping-sickness {
@@ -711,19 +701,22 @@ figcaption {
     }
 
     /* Bacteria Page */
-    .bacteria {
-        height: auto;
-        max-width: 100%;
-        min-width: 0;
-
-    }
-
+    
     .bacteria-section h2 {
         font-size: 24px;
         margin-left: 0;
         margin-right: 0;
     }
+    
+    .bacteria {
+        max-width: 100%;
+        height: auto;
+        padding-left: 0;
 
+        
+    }
+
+   
     .TB,
     .strep,
     .syphilis {
@@ -740,10 +733,6 @@ figcaption {
         margin-top: 20px;
     }
 
-
-
-
-
     /*Virus Page */
 
     .virus-section h2 {
@@ -758,23 +747,19 @@ figcaption {
         align-items: center;
     }
 
-
-    .hiv img,
-    .covid img {
+    .viruses {
+        max-width: 100%;
         height: auto;
-        max-width: 50%;
-        min-width: 0;
         padding-left: 0;
-        margin: 20px auto 0;
-        align-items: center;
+
     }
-
-
 
     .rabies,
     .hiv,
     .covid {
         flex-direction: column;
+        align-items: center;
+        min-width: auto;
 
     }
 
@@ -788,22 +773,25 @@ figcaption {
 
     /* Fungi Page */
 
-    .fungi {
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-    }
 
     .fungi-section h2 {
         font-size: 24px;
         margin-left: 0;
         margin-right: 0;
     }
+    .fungi {
+        max-width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
 
     .candida,
     .murcomycosis,
     .neoformans {
         flex-direction: column;
+        align-items: center;
+        min-width: auto;
     }
 
     .candida p,
