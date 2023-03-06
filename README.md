@@ -125,6 +125,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
 ### Content
 
 * The text information for each pathogen page was taken from their respective Wikipedia pages. I edited and simplified the text to make it more clear and allow it to be displayed correctly on the site. 
+* The terms and conditions of the quiz page were taken from the Love Running project and adapted for my own use. 
 
 ### Media
 
