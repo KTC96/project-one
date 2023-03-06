@@ -271,11 +271,10 @@ footer h3 {
 
 
 .bacteria {
-    height: 250px;
-    max-width: 300px;
-    min-width: 300px;
-
-
+    width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin-left: 20px;
 }
 
 .bacteria-section h2 {
@@ -285,49 +284,30 @@ footer h3 {
 
 }
 
-
-
-.TB {
+.TB, .strep, .syphilis {
     display: flex;
     justify-content: flex-start;
-    padding-left: 20px;
 
 }
 
-.TB p {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
-}
-
-.microscope-image h2 {
-    padding-left: 20px;
-}
-
-.strep {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 20px;
-}
-
-.strep p {
+.TB p, .strep p, .syphilis p{
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(27, 70, 133, 0.9);
 }
 
 .syphilis {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 20px;
     padding-bottom: 20px;
 }
 
-.syphilis p {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -337,62 +317,35 @@ footer h3 {
     background-color: #1b4685;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
-.rabies {
+.viruses {
+    width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin-left: 20px;
+}
+
+.hiv, .covid, .rabies {
     display: flex;
     justify-content: flex-start;
 
 }
 
-.rabies p {
+.rabies p, .hiv p, .covid p {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(27, 70, 133, 0.9);
-}
 
+}
 .virus-section iframe {
     padding-left: 20px;
     margin: auto;
 }
 
-
-.hiv {
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-.hiv img {
-    height: 300px;
-    max-width: 300px;
-    min-width: 300px;
-    padding-left: 20px;
-    margin: auto;
-}
-
-.hiv p {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
-}
-
 .covid {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.covid img {
-    height: 300px;
-    max-width: 300px;
-    padding-left: 20px;
-    margin: auto;
-}
-
-.covid p {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
+    padding-bottom: 20px;
 }
 
 /*Fungi page */
@@ -405,48 +358,28 @@ footer h3 {
 
 
 .fungi {
-    max-width: 300px;
+    width: 300px;
+    min-height: 300px;
     max-height: 300px;
-    margin: auto;
-    padding-left: 20px;
-
-}
-
-.candida {
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-.candida p {
     margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
+
+
 }
 
-.murcomycosis {
+.candida, .murcomycosis, .neoformans {
     display: flex;
     justify-content: flex-start;
-    
+
 }
 
-.murcomycosis p {
+.candida p, .murcomycosis p, .neoformans p {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(27, 70, 133, 0.9);
 }
 
 .neoformans {
-    display: flex;
-    justify-content: flex-start;
     padding-bottom: 20px;
-
-}
-
-.neoformans p {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
 }
 
 /* Parasites Page */
@@ -458,12 +391,17 @@ footer h3 {
 
 }
 
+.parasites {
+    width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin-left: 20px;
+}
+
 .parasite-section iframe {
     padding-left: 20px;
     margin: auto;
 }
-
-
 
 figcaption {
     max-width: 300px;
@@ -473,48 +411,23 @@ figcaption {
 }
 
 
-.parasites {
-    width: 300px;
-    min-height: 300px;
-    max-height: 300px;
-    margin-left: 20px;
-}
 
-.malaria {
+
+.malaria, .schisto, .sleeping-sickness {
     display: flex;
     justify-content: flex-start;
 
 }
 
-.malaria p {
+.malaria p, .schisto p, .sleeping-sickness p {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgba(27, 70, 133, 0.9);
-}
 
-.schisto {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.schisto p {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
 }
 
 .sleeping-sickness {
-    display: flex;
-    justify-content: flex-start;
     padding-bottom: 20px;
-
-}
-
-.sleeping-sickness p {
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
-    height: 100%;
 }
 
 
@@ -574,7 +487,7 @@ figcaption {
 .quiz-terms img {
     margin-top: 20px;
     margin-bottom: 20px;
-  }
+}
 
 .magazine-image {
     width: 30%;
@@ -595,7 +508,7 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
 
 .quiz-terms h2 {
     background-color: rgba(27, 70, 133, 0.9)
@@ -637,7 +550,7 @@ figcaption {
 }
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
     .quiz-container {
         flex-direction: row;
         height: auto;
@@ -654,28 +567,28 @@ figcaption {
         padding-left: 0;
         padding-right: 0;
     }
-    
 
-    
+
+
 
 }
 
 @media screen and (max-width: 600px) {
     .quiz-terms {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .quiz-terms img {
-      margin: 20px 0;
+        margin: 20px 0;
     }
 
     .magazine-image {
         width: 50%;
     }
 
-   
-  }
+
+}
 
 
 
@@ -800,7 +713,7 @@ figcaption {
     /* Bacteria Page */
     .bacteria {
         height: auto;
-        max-width: 50%;
+        max-width: 100%;
         min-width: 0;
 
     }
@@ -815,9 +728,8 @@ figcaption {
     .strep,
     .syphilis {
         flex-direction: column;
-        padding-left: 0;
-        padding-bottom: 20px;
         align-items: center;
+        min-width: auto;
     }
 
     .TB p,
@@ -828,9 +740,7 @@ figcaption {
         margin-top: 20px;
     }
 
-    .microscope-image h2 {
-        padding-left: 0;
-    }
+
 
 
 
@@ -844,7 +754,7 @@ figcaption {
 
     .virus-section iframe {
         padding-left: 0;
-        width: 50%;
+        width: 100%;
         align-items: center;
     }
 
