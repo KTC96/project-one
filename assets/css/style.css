@@ -78,6 +78,10 @@ h3 {
     border-bottom: 1px solid white;
 }
 
+.hamburger-wrapper a:hover {
+    border-bottom: 1px solid white;
+}
+
 .active {
     border-bottom: 1px solid white;
 }
