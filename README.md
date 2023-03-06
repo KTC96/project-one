@@ -51,6 +51,14 @@ Learno-Path is a scientific website focused on educating individuals who want to
 
 ### Colour Scheme
 * I used a simple color scheme of shades of blue and white to make it look clean and professional, allowing users to read the content easily.
+<br>
+<br>
+
+|Colour        |                |            |           | 
+| :-------     |    :--------:  |   -------: |  -------: | 
+| #1b4685      | #fafafa        | #dfdee0    | #365c96   | 
+
+![Color Scheme](./assets/images/color-scheme.png)
 
 ### Typrography
 
