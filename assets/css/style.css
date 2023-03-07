@@ -249,10 +249,18 @@ footer {
 
 footer h3 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 100%;
 
 }
+
+footer p {
+    font-size: 75%;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
 
 .social-networks {
     text-align: center;
@@ -348,7 +356,7 @@ footer h3 {
     background-color: #1b4685;
     margin-left: 20px;
     margin-right: 20px;
-    word-wrap: break-word;
+    
 }
 
 
