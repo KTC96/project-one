@@ -62,11 +62,48 @@ Learno-Path is a scientific website focused on educating individuals who want to
 
 ### Typrography
 
+I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decided on  DM Mono for headings and DM sans for paragraph elements. I utilized Google fonts to use them in my project. 
+
+
+
+
 ### Imagery
 
 ### Wireframes
 
 ## Features
+
+* Navigation Bar 
+   * Featured on all five pages, the fully responsive navigation bar includes links to the Home page, content pages and quiz page. It is identical across all pages to allow for standardized style and easy navigation.
+   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+   * At smaller screen sizes the navigation bar transforms into a JavaScript hamburger menu, allowing the site to be visually pleasing at these sizes. 
+
+![Navigation Bar](./assets/images/nav-bar-readme.png)
+<img src="./assets/images/nav-bar-small-readme.png" height="200px" width="300px">
+
+* The landing page image
+   * The landing includes a photograph with text overlay introducing the website and its theme. The image changes to a bacteria illustration when hovering with the mouse and back again when the cursor is taken off the image, providing an interesting an eyecatching feature. 
+  
+<img src="./assets/images/main-image-readme.png" height="200px" width="600px">
+
+* The pathogens video and why you should learn with us section.
+   * This section gives a general background introduction into pathogens in an easy to understand video format.
+   * Why you should learn with Learno-Path is displayed across three eye catching cards, showing the user the benefits of using the site. 
+
+<img src="./assets/images/why-readme.png" height="300px" width="600px">
+
+* The about section and footer
+   * The about section includes an image of myself and the reason for creating the site.
+   * The footer section includes links to social media sites for Learno-Path which open in a new tab.
+
+<img src="./assets/images/about-readme.png" height="300px" width="800px">
+
+* Content pages
+   * The content pages include images, video and text alongside fig captions to help explain media elements. 
+   * This section is valuable as it provides information on different pathogens to the user. 
+
+<img src="./assets/images/content-readme.png" height="300px" width="600px">
+   
 
 ### Future Implementations
 
@@ -99,6 +136,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
 * Balsamiq: Balsamiq was used to create the wireframes for the website. 
 * Pexels: Pexels was used for copyright free images.
 * Upsplash: Upsplash was used for copyright free images.
+* Fontjoy: Fontjoy was used to provide font paring ideas. 
 
 
 
