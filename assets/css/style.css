@@ -293,6 +293,7 @@ footer p {
     background-color: #1b4685;
     margin-left: 20px;
     margin-right: 20px;
+    
 
 }
 
@@ -530,6 +531,7 @@ figcaption {
         right: 0%;
         max-width: none;
         margin: 0 5%;
+        padding-top: 20px;
     }
 
     #main-cover h3 {
