@@ -79,30 +79,30 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
    * At smaller screen sizes the navigation bar transforms into a JavaScript hamburger menu, allowing the site to be visually pleasing at these sizes. 
 
 ![Navigation Bar](./assets/images/nav-bar-readme.png)
-<img src="./assets/images/nav-bar-small-readme.png" height="200px" width="300px">
+<img src="./assets/images/nav-bar-small-readme.png" height="100%" width="50%">
 
 * The landing page image
    * The landing includes a photograph with text overlay introducing the website and its theme. The image changes to a bacteria illustration when hovering with the mouse and back again when the cursor is taken off the image, providing an interesting an eyecatching feature. 
   
-<img src="./assets/images/main-image-readme.png" height="200px" width="600px">
+<img src="./assets/images/main-image-readme.png" height="100%" width="100%">
 
 * The pathogens video and why you should learn with us section.
    * This section gives a general background introduction into pathogens in an easy to understand video format.
    * Why you should learn with Learno-Path is displayed across three eye catching cards, showing the user the benefits of using the site. 
 
-<img src="./assets/images/why-readme.png" height="300px" width="600px">
+<img src="./assets/images/why-readme.png" height="100%" width="100%">
 
 * The about section and footer
    * The about section includes an image of myself and the reason for creating the site.
    * The footer section includes links to social media sites for Learno-Path which open in a new tab.
 
-<img src="./assets/images/about-readme.png" height="300px" width="800px">
+<img src="./assets/images/about-readme.png" height="100%" width="100%">
 
 * Content pages
    * The content pages include images, video and text alongside fig captions to help explain media elements. 
    * This section is valuable as it provides information on different pathogens to the user. 
 
-<img src="./assets/images/content-readme.png" height="300px" width="600px">
+<img src="./assets/images/content-readme.png" height="100%" width="100%">
    
 
 ### Future Implementations
