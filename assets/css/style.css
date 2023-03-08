@@ -12,8 +12,8 @@ body {
     font-weight: 200;
     color: white;
     height: 100%;
-    
-    
+
+
 }
 
 
@@ -503,32 +503,38 @@ figcaption {
 /* Quiz page */
 
 
-.quiz-question h2 {
+.quiz-intro {
     font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
+
+}
+
+.quiz-intro h2 {
+    background-color: rgba(27, 70, 133, 0.9);
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.quiz {
+    background-color: rgba(27, 70, 133, 0.9);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 20px;
+    
 }
 
 
-.quiz-question {
-    margin-left: 20px;
-    background-color: rgba(27, 70, 133, 0.9);
-    max-width: 400px;
-    padding: 30px;
-    margin: 20px auto;
+input {
     text-align: left;
 }
 
-.quiz-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quiz-container div {
-    flex: 1;
-    width: 100%;
-}
 
 .submit-button {
     margin-top: 20px;
@@ -546,41 +552,20 @@ figcaption {
     color: #1b4685;
 }
 
-.conditions {
+.quiz-conditions {
     max-height: 200px;
     overflow-y: auto;
     background-color: rgba(27, 70, 133, 0.9);
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
 }
 
 .quiz-terms img {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.magazine-image {
-    width: 30%;
-    height: 100%;
-    max-width: 600px;
-    padding-left: 20px;
-
-}
-
-.winner-image {
-    width: 70%;
-    height: 100%;
-    max-width: 600px;
-    padding-left: 20px;
-}
-
-.quiz-terms {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.quiz-terms h2 {
-    background-color: rgba(27, 70, 133, 0.9)
 }
 
 /* Media queries */
@@ -602,6 +587,7 @@ figcaption {
     #main-cover h3 {
         font-size: 90%;
     }
+    
 }
 
 @media screen and (max-width: 511px) {
@@ -619,324 +605,295 @@ figcaption {
     }
 }
 
-
-@media screen and (min-width: 600px) {
-    .quiz-container {
-        flex-direction: row;
-        height: auto;
-    }
-
-    .quiz-container div {
-        width: 50%;
-        padding: 0 20px;
-    }
-
-    .winner-image {
-        width: 100%;
-        height: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-
-
-
+@media screen and (max-width: 650px) {
+    .quiz {
+    overflow-y: auto;
+    flex-wrap: wrap;
+    max-height: 500px;
 }
-
-@media screen and (max-width: 600px) {
-    .quiz-terms {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .quiz-terms img {
-        margin: 20px 0;
-    }
-
-    .magazine-image {
-        width: 50%;
-    }
-
-
 }
+    /* Medium screen sizes */
 
 
-
-/* Medium screen sizes */
-
-
-@media screen and (min-width: 1059px) {
-    .hamburger-wrapper {
-        display: none;
-    }
-}
-
-@media screen and (max-width:1058px) {
-    nav {
-        display: none;
-    }
-
-    /*Hamburger Menu*/
-    .bars,
-    #menu {
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        color: #DFDEE0;
-        margin: 45px 5% 0 0;
-    }
-
-    .fa-bars,
-    .fa-times {
-        font-size: 25px;
-    }
-
-    .fa-times {
-        position: absolute;
-        right: 0;
-        margin-right: 20px;
-    }
-
-    .hamburgermenu {
-        width: 160px;
-        display: none;
-        position: fixed;
-        top: 0;
-        right: 0;
-        background-color: #365C96;
-        padding: 2%;
-        margin: 0;
-        z-index: 4;
-        animation: open 1.3s ease forwards;
-    }
-
-    @keyframes open {
-        0% {
-            transform: translateX(120%);
-        }
-
-        100% {
-            transform: translateX(0);
+    @media screen and (min-width: 1059px) {
+        .hamburger-wrapper {
+            display: none;
         }
     }
 
-    .hamburgermenu li {
-        list-style: none;
-        padding: 10px 0;
-        margin-top: 10px;
+    @media screen and (max-width:1058px) {
+        nav {
+            display: none;
+        }
+
+        /*Hamburger Menu*/
+        .bars,
+        #menu {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #DFDEE0;
+            margin: 45px 5% 0 0;
+        }
+
+        .fa-bars,
+        .fa-times {
+            font-size: 25px;
+        }
+
+        .fa-times {
+            position: absolute;
+            right: 0;
+            margin-right: 20px;
+        }
+
+        .hamburgermenu {
+            width: 160px;
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: #365C96;
+            padding: 2%;
+            margin: 0;
+            z-index: 4;
+            animation: open 1.3s ease forwards;
+        }
+
+        @keyframes open {
+            0% {
+                transform: translateX(120%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .hamburgermenu li {
+            list-style: none;
+            padding: 10px 0;
+            margin-top: 10px;
+        }
+
+        .hamburgermenu a {
+            width: 100%;
+            text-decoration: none;
+            color: #DFDEE0;
+        }
+
+        .hamburgermenu .close {
+            width: 20px;
+            height: 20px;
+            font-size: 100%;
+            margin: 3% 4% 0 0;
+        }
     }
 
-    .hamburgermenu a {
-        width: 100%;
-        text-decoration: none;
-        color: #DFDEE0;
-    }
-
-    .hamburgermenu .close {
-        width: 20px;
-        height: 20px;
-        font-size: 100%;
-        margin: 3% 4% 0 0;
-    }
-}
-
-@media screen and (max-width: 900px) {
+    @media screen and (max-width: 900px) {
 
 
-    .card-container,
-    .why {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        .card-container,
+        .why {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-    }
+        }
 
-    .card,
-    .why {
-        width: 100%;
-    }
-
-
-}
-
-/* Large screen sizes */
-
-@media only screen and (max-width: 1200px) {
-    .about {
-        flex-direction: column;
-    }
-
-    .about p {
-        font-size: 16px;
-        margin-top: 20px;
-    }
-
-    .profile-image-container {
-        height: 150px;
-        width: 150px;
-        margin-left: 0;
-        margin-right: 20px;
-    }
-
-    /* Bacteria Page */
-
-    .bacteria-section h2 {
-        font-size: 24px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .bacteria {
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-
-
-    }
-
-
-    .TB,
-    .strep,
-    .syphilis {
-        flex-direction: column;
-        align-items: center;
-        min-width: auto;
-    }
-
-    .TB p,
-    .strep p,
-    .syphilis p {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 20px;
-    }
-
-    /*Virus Page */
-
-    .virus-section h2 {
-        font-size: 24px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .virus-section iframe {
-        padding-left: 0;
-       
-        align-items: center;
-    }
-
-    .viruses {
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-
-    }
-
-    .rabies,
-    .hiv,
-    .covid {
-        flex-direction: column;
-        align-items: center;
-        min-width: auto;
-
-    }
-
-    .rabies p,
-    .hiv p,
-    .covid p {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 20px;
-    }
-
-    /* Fungi Page */
-
-
-    .fungi-section h2 {
-        font-size: 24px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .fungi {
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-
-    }
-
-
-    .candida,
-    .murcomycosis,
-    .neoformans {
-        flex-direction: column;
-        align-items: center;
-        min-width: auto;
-    }
-
-    .candida p,
-    .murcomycosis p,
-    .neoformans p {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 20px;
-    }
-
-    /* Parasites Page */
-
-    .parasite-section h2 {
-        font-size: 24px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .parasite-section iframe {
-        padding-left: 0;
-        align-items: center;
-    }
-
-    .parasites {
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-
-    }
-
-    figcaption {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+        .card,
+        .why {
+            width: 100%;
+        }
 
 
     }
 
+    /* Large screen sizes */
 
-    .malaria,
-    .schisto,
-    .sleeping-sickness {
-        flex-direction: column;
-        align-items: center;
-        min-width: auto;
+    @media only screen and (max-width: 1200px) {
+        .about {
+            flex-direction: column;
+        }
+
+        .about p {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .profile-image-container {
+            height: 150px;
+            width: 150px;
+            margin-left: 0;
+            margin-right: 20px;
+        }
+
+        /* Bacteria Page */
+
+        .bacteria-section h2 {
+            font-size: 24px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .bacteria {
+            max-width: 100%;
+            height: auto;
+            padding-left: 0;
+
+
+        }
+
+
+        .TB,
+        .strep,
+        .syphilis {
+            flex-direction: column;
+            align-items: center;
+            min-width: auto;
+        }
+
+        .TB p,
+        .strep p,
+        .syphilis p {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 20px;
+        }
+
+        /*Virus Page */
+
+        .virus-section h2 {
+            font-size: 24px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .virus-section iframe {
+            padding-left: 0;
+
+            align-items: center;
+        }
+
+        .viruses {
+            max-width: 100%;
+            height: auto;
+            padding-left: 0;
+
+        }
+
+        .rabies,
+        .hiv,
+        .covid {
+            flex-direction: column;
+            align-items: center;
+            min-width: auto;
+
+        }
+
+        .rabies p,
+        .hiv p,
+        .covid p {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 20px;
+        }
+
+        /* Fungi Page */
+
+
+        .fungi-section h2 {
+            font-size: 24px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .fungi {
+            max-width: 100%;
+            height: auto;
+            padding-left: 0;
+
+        }
+
+
+        .candida,
+        .murcomycosis,
+        .neoformans {
+            flex-direction: column;
+            align-items: center;
+            min-width: auto;
+        }
+
+        .candida p,
+        .murcomycosis p,
+        .neoformans p {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 20px;
+        }
+
+        /* Parasites Page */
+
+        .parasite-section h2 {
+            font-size: 24px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .parasite-section iframe {
+            padding-left: 0;
+            align-items: center;
+        }
+
+        .parasites {
+            max-width: 100%;
+            height: auto;
+            padding-left: 0;
+
+        }
+
+        figcaption {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+
+        }
+
+
+        .malaria,
+        .schisto,
+        .sleeping-sickness {
+            flex-direction: column;
+            align-items: center;
+            min-width: auto;
+        }
+
+        .malaria p,
+        .schisto p,
+        .sleeping-sickness p {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 20px;
+        }
+
+        .bacteria-section h2,
+        .virus-section h2,
+        .fungi-section h2,
+        .parasite-section h2 {
+            text-align: center;
+            max-width: 100%;
+
+
+
+        }
+
+        .quiz-intro h2 {
+            font-size: 24px;
+            margin-left: 0;
+            margin-right: 0;
+
+        }
     }
-
-    .malaria p,
-    .schisto p,
-    .sleeping-sickness p {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 20px;
-    }
-
-    .bacteria-section h2,
-    .viruses-section h2,
-    .fungi-section h2,
-    .parasites-section h2 {
-        text-align: center;
-        max-width: 100%;
-
-
-
-    }
-}
