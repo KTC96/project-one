@@ -137,6 +137,7 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 * Pexels: Pexels was used for copyright free images.
 * Upsplash: Upsplash was used for copyright free images.
 * Fontjoy: Fontjoy was used to provide font paring ideas. 
+* CloudConvert: I used CloudConvert to change my images into webp format.
 
 
 
@@ -156,7 +157,6 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 ### Code
 * My coursemate Mia Rasmussen showed me how to create a JavaScript hamburger style navigation menu so my site would be responsive at smaller screen sizes.
 * Creation of my nav bar as well as the general structure of the website was taken from the Love Running walkthrough tutorial.
-
 * I watched many tutorials on flexbox to help me make my website responsive and better position elements on my site.
 
 
