@@ -91,14 +91,14 @@ h3 {
 #main-image {
     height: 500px;
     width: 100%;
-    background: url('../images/virus-main.jpg') no-repeat center center;
+    background: url('../images/virus-main.webp') no-repeat center center;
 
 }
 
 #main-image:hover {
     height: 500px;
     width: 100%;
-    background: url('../images/bacteria-main.jpg') no-repeat center center;
+    background: url('../images/bacteria-main.webp') no-repeat center center;
     transition-duration: 1s;
 
 
@@ -143,7 +143,7 @@ h3 {
 
 
 .dna-background {
-    background: url('../images/dna.jpg') no-repeat center center;
+    background: url('../images/dna.webp') no-repeat center center;
     background-size: cover;
 
 }
@@ -230,7 +230,7 @@ div>h2 {
 }
 
 .profile-image {
-    background: url('../images/kyle-image.jpg') no-repeat center center;
+    background: url('../images/kyle-image.webp') no-repeat center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
