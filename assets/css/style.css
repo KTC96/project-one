@@ -314,6 +314,7 @@ footer p {
     min-height: 300px;
     max-height: 300px;
     margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,6 +368,7 @@ footer p {
     min-height: 300px;
     max-height: 300px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .hiv,
@@ -389,7 +391,8 @@ footer p {
 
 .virus-section iframe {
     padding-left: 20px;
-    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .covid {
@@ -412,6 +415,7 @@ footer p {
     min-height: 300px;
     max-height: 300px;
     margin-left: 20px;
+    margin-right: 20px;
 
 
 }
@@ -452,6 +456,7 @@ footer p {
     min-height: 300px;
     max-height: 300px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .parasite-section iframe {
@@ -459,6 +464,7 @@ footer p {
     min-height: 300px;
     max-height: 300px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 figcaption {
@@ -815,7 +821,7 @@ figcaption {
 
     .virus-section iframe {
         padding-left: 0;
-        width: 100%;
+       
         align-items: center;
     }
 
@@ -886,7 +892,6 @@ figcaption {
 
     .parasite-section iframe {
         padding-left: 0;
-        width: 100%;
         align-items: center;
     }
 
