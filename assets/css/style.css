@@ -532,13 +532,15 @@ figcaption {
 .quiz {
     background-color: rgba(27, 70, 133, 0.9);
     max-width: 100%;
-    display: flex;
-    justify-content: center;
+   
     padding: 1rem;
     margin: 20px;
     
 }
 
+textarea {
+    max-width: 100%;
+}
 
 input {
     text-align: left;
@@ -638,9 +640,9 @@ input {
 
 @media screen and (max-width: 650px) {
     .quiz {
-    overflow-y: auto;
-    flex-wrap: wrap;
-    max-height: 500px;
+    
+    font-size: 0.5rem;
+    
 }
 }
     /* Medium screen sizes */
