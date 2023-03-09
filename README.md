@@ -154,16 +154,16 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 
 ### Frameworks, Libraries and Programs
 
-* Font Awesome: Font Awesome was used to select icons.
-* Am I Responsive: Am I Responsive? was used to test website responsiveness.
-* Google Fonts: Google Fonts was used to select the fonts.
-* Canva: Canva was used to make the website logo. 
-* Favicon: Favicon was used to pick a virus shaped favicon. 
-* Balsamiq: Balsamiq was used to create the wireframes for the website. 
-* Pexels: Pexels was used for copyright free images.
-* Upsplash: Upsplash was used for copyright free images.
-* Fontjoy: Fontjoy was used to provide font paring ideas. 
-* CloudConvert: I used CloudConvert to change my images into webp format.
+* [Font Awesome](https://fontawesome.com/): Font Awesome was used to select icons.
+* [Am I Responsive](https://ui.dev/amiresponsive): Am I Responsive? was used to test website responsiveness.
+* [Google Fonts](https://fonts.google.com/): Google Fonts was used to select the fonts.
+* [Canva](https://www.canva.com/): Canva was used to make the website logo. 
+* [Favicon](https://www.favicon.cc/): Favicon was used to pick a virus shaped favicon. 
+* [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiApKagBhC1ARIsAFc7Mc5DZfV_5VpnNDQFIuz5lMZ2IXecFdf7tkETd3vavZImeCymee0FHvQaAmZHEALw_wcB): Balsamiq was used to create the wireframes for the website. 
+* [Pexels](https://www.pexels.com/): Pexels was used for copyright free images.
+* [Unsplash](https://unsplash.com/): Unsplash was used for copyright free images.
+* [Fontjoy](https://fontjoy.com/): Fontjoy was used to provide font paring ideas. 
+* [CloudConvert](https://cloudconvert.com/): I used CloudConvert to change my images into webp format.
 
 
 
