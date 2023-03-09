@@ -45,6 +45,12 @@ Issue: To do this I had to set up my own database, which I looked into but was t
 
 Solution: I linked the submit button for the quiz to a submission page, where the user is thanked for submitting their data. 
 
+Aim: To make all pages of my site responsive
+
+Issue: On my quiz page the quiz section was going off screen at smaller screen sizes
+
+Solution: I removed the overflow property and set up a media query to decrease font size at smaller screen sizes. 
+
 
 
 Contrast:
