@@ -71,6 +71,41 @@ CSS [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 Lighthouse Scores:
 
 * I performed lighthouse tests in incognito mode to prevent interference from extensions.
-* I ran the tests formobile and desktop.
+* I ran the tests for mobile and desktop.
+
+Desktop:
+
+Home page: 
+
+<img src="./home-desktop.png" width="500px" height="150px">
+
+Bacteria page:
+
+<img src="./bacteria-desktop.png" width="500px" height="150px">
+
+Virus page: 
+
+<img src="./viruses-desktop.png" width="500px" height="150px">
+
+Fungi page: 
+
+<img src="./fungi-desktop.png" width="500px" height="150px">
+
+Parasite page: 
+
+<img src="./parasites-desktop.png" width="500px" height="150px">
+
+Quiz page: 
+
+<img src="./quiz-desktop.png" width="500px" height="150px">
+
+Submission page: 
+
+<img src="./viruses-desktop.png" width="500px" height="150px">
+
+
+
+
+
 
 
