@@ -616,6 +616,26 @@ input {
     }
 }
 
+@media screen and (min-width: 592px){
+    .fungi-section h2 br {
+        display: none;
+    }
+
+    .bacteria-section h2 br {
+        display: none;
+    }
+
+    .virus-section h2 br {
+        display: none;
+    }
+
+    .parasite-section h2 br {
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 650px) {
     .quiz {
     overflow-y: auto;
