@@ -15,7 +15,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
    * [Wireframes](#wireframes)
 3. [Features](#features)
    * [Future Implementations](#future-implementations)
-   * [Accesibility](#accesibility)
+   * [Accessibility](#accessibility)
 4. [Technologies](#technologies)
    * [Languages](#languages)
    * [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
@@ -26,7 +26,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
    * [Content](#c)
 
 
-## User Expeirence
+## User Experience
 
 
 
@@ -62,7 +62,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
 
 ![Color Scheme](./assets/images/color-scheme.png)
 
-### Typrography
+### Typography
 
 I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decided on  DM Mono for headings and DM sans for paragraph elements. I utilized Google fonts to use them in my project. 
 
@@ -107,7 +107,7 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 <img src="./assets/images/nav-bar-small-readme.png" height="100%" width="50%">
 
 * The landing page image
-   * The landing includes a photograph with text overlay introducing the website and its theme. The image changes to a bacteria illustration when hovering with the mouse and back again when the cursor is taken off the image, providing an interesting an eyecatching feature. 
+   * The landing includes a photograph with text overlay introducing the website and its theme. The image changes to a bacteria illustration when hovering with the mouse and back again when the cursor is taken off the image, providing an interesting an eye-catching feature. 
   
 <img src="./assets/images/main-image-readme.png" height="100%" width="100%">
 
@@ -134,11 +134,11 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 
    * For future applications of the website I would like to include links to scientific papers so that the user can learn more in depth knowledge about the subject matter.
    * Add a feedback feature after completing the quiz so users can check their answers.
-   * Make quiz questions randomly generate from a pool, so a wider range of knoweldge can be tested.
+   * Make quiz questions randomly generate from a pool, so a wider range of knowledge can be tested.
    * Increase the range of material covered in the site.
    * Link the quiz to a database to capture and store user data.
 
-### Accesibility
+### Accessibility
 
 ## Technologies
 
@@ -169,7 +169,7 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 
 ## Testing
 
-I created a seperate file to outline the testing I undertook on my project 
+I created a separate file to outline the testing I undertook on my project 
 
 [Testing File](./testing/TESTING.md)
 
@@ -186,7 +186,7 @@ I created a seperate file to outline the testing I undertook on my project
 ## Credits
 
 ### Code
-* My coursemate Mia Rasmussen showed me how to create a JavaScript hamburger style navigation menu so my site would be responsive at smaller screen sizes.
+* My course mate Mia Rasmussen showed me how to create a JavaScript hamburger style navigation menu so my site would be responsive at smaller screen sizes.
 * Creation of my nav bar as well as the general structure of the website was taken from the Love Running walkthrough tutorial.
 * I watched many tutorials on flexbox to help me make my website responsive and better position elements on my site.
 * I used Stack Overflow to help me solve any issues with my code and get inspiration for elements of my site. 
@@ -202,9 +202,9 @@ I created a seperate file to outline the testing I undertook on my project
 * The images on the home page were taken from [Pixabay](https://pixabay.com/).
 * The images on content page were taken from [Pexels](https://www.pexels.com/). 
 * Through Pexels I also found more suitable images using [CDC](https://www.cdc.gov/)
-* The image of T.Brucei on the parasites page was taken by myself during unviversity study.
+* The image of T.Brucei on the parasites page was taken by myself during university study.
 
 
-### Acknowldegements 
+### Acknowledgements
 
-I would like to thank two of my course collegues Mia Rasmussen and Hope Tracy for their help in understanding coding concepts. I would also like to thank my mentor Jack for checking my code and supporting me through this project. 
+I would like to thank two of my course colleagues , Mia Rasmussen and Hope Tracy for their help in understanding coding concepts. I would also like to thank my mentor Jack for checking my code and supporting me through this project. 
