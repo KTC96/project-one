@@ -1,7 +1,7 @@
 
 ## Manual Testing
 
-* I pubished my site via GitHub pages and shared with coursemates to recieve feedback. 
+* I published my site via GitHub pages and shared with course mates to receive feedback. 
 
 
 * Navbar: All the links on the navbar are working on desktop and mobile screens. 
@@ -17,7 +17,7 @@
 
 * Quiz page:
 
-    * When I fill out the quiz and click submit, I am taken to a sumbission page thanking the user for entering the draw. They can then nagivate back to any other page using the nav bar. 
+    * When I fill out the quiz and click submit, I am taken to a submission page thanking the user for entering the draw. They can then navigate back to any other page using the nav bar. 
 
 ## Bugs and issues
 
@@ -31,7 +31,7 @@ I learnt and used CSS flexbox for my site.
 
     * Issue: At smaller screen sizes, the nav bar split onto two lines which was not aesthetically pleasing.
 
-    * Solution: I used a media query to reduce the text size and margins of the nav bar, however this still was not suitable for small screen sizes. As outlined in the acknowldegemnts section, a coursemate demonstrated how I could create a JavaScript Hamburger menu, allowing my site to be responsive at small screen sizes. 
+    * Solution: I used a media query to reduce the text size and margins of the nav bar, however this still was not suitable for small screen sizes. As outlined in the acknowledgements section, a course mate demonstrated how I could create a JavaScript Hamburger menu, allowing my site to be responsive at small screen sizes. 
 
 2. Aim: The site to load quickly when analysed by lighthouse in dev tools
 
