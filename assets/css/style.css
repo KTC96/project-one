@@ -566,6 +566,8 @@ input {
 .quiz-terms img {
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 500px;
+    width:400px;
 }
 
 /* Media queries */

@@ -134,6 +134,7 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
    * Add a feedback feature after completing the quiz so users can check their answers.
    * Make quiz questions randomly generate from a pool, so a wider range of knoweldge can be tested.
    * Increase the range of material covered in the site.
+   * Link the quiz to a database to capture and store user data.
 
 ### Accesibility
 
@@ -165,6 +166,7 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 
 
 ## Testing
+
 
 ## Deployment
 
