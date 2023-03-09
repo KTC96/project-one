@@ -27,7 +27,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
 
 
 ## User Expeirence
-* 
+
 
 
 ### User Stories
@@ -47,7 +47,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
    * Acceptance criteria: Design a quiz with a range of questions to test a breadth of knowledge on information provided on the website. Allow 
      users to submit their answers.
      
-* As a user I 
+
 
 ## Design
 
