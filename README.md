@@ -2,6 +2,8 @@
 
 Learno-Path is a scientific website focused on educating individuals who want to learn more about the worlds deadliest pathogens. Learno-Path provides a range of learning material to allow users of all ages an abilities to delve into the world of pathology.
 
+![Learno-Path](./testing/responsive.png)
+
 ## Contents
 
 1. [User Experience](#user-experience)
@@ -167,6 +169,10 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 
 ## Testing
 
+I created a seperate file to outline the testing I undertook on my project 
+
+[Testing File](./testing/TESTING.md)
+
 
 ## Deployment
 
@@ -183,6 +189,7 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 * My coursemate Mia Rasmussen showed me how to create a JavaScript hamburger style navigation menu so my site would be responsive at smaller screen sizes.
 * Creation of my nav bar as well as the general structure of the website was taken from the Love Running walkthrough tutorial.
 * I watched many tutorials on flexbox to help me make my website responsive and better position elements on my site.
+* I used Stack Overflow to help me solve any issues with my code and get inspiration for elements of my site. 
 
 
 ### Content
