@@ -77,61 +77,61 @@ Desktop:
 
 Home page: 
 
-<img src="./home-desktop.png" width="500px" height="150px">
+<img src="./images/home-desktop.png" width="500px" height="150px">
 
 Bacteria page:
 
-<img src="./bacteria-desktop.png" width="500px" height="150px">
+<img src="./images/bacteria-desktop.png" width="500px" height="150px">
 
 Virus page: 
 
-<img src="./viruses-desktop.png" width="500px" height="150px">
+<img src="./images/viruses-desktop.png" width="500px" height="150px">
 
 Fungi page: 
 
-<img src="./fungi-desktop.png" width="500px" height="150px">
+<img src="./images/fungi-desktop.png" width="500px" height="150px">
 
 Parasite page: 
 
-<img src="./parasites-desktop.png" width="500px" height="150px">
+<img src="./images/parasites-desktop.png" width="500px" height="150px">
 
 Quiz page: 
 
-<img src="./quiz-desktop.png" width="500px" height="150px">
+<img src="./images/quiz-desktop.png" width="500px" height="150px">
 
 Submission page: 
 
-<img src="./viruses-desktop.png" width="500px" height="150px">
+<img src="./images/viruses-desktop.png" width="500px" height="150px">
 
 Mobile:
 
 Home page: 
 
-<img src="" width="500px" height="150px">
+<img src="./images/home-mobile.png" width="500px" height="150px">
 
 Bacteria page:
 
-<img src="" width="500px" height="150px">
+<img src="./images/bacteria-mobile.png" width="500px" height="150px">
 
 Virus page: 
 
-<img src="" width="500px" height="150px">
+<img src="./images/viruses-mobile.png" width="500px" height="150px">
 
 Fungi page: 
 
-<img src="" width="500px" height="150px">
+<img src="./images/fungi-mobile.png" width="500px" height="150px">
 
 Parasite page: 
 
-<img src="" width="500px" height="150px">
+<img src="./images/parasites-mobile.png" width="500px" height="150px">
 
 Quiz page: 
 
-<img src="" width="500px" height="150px">
+<img src="./images/quiz-mobile.png" width="500px" height="150px">
 
 Submission page: 
 
-<img src="" width="500px" height="150px">
+<img src="./images/submission-mobile.png" width="500px" height="150px">
 
 
 
