@@ -71,6 +71,29 @@ I used [Fontjoy](https://fontjoy.com/) to experiment with font parings. I decide
 
 ### Wireframes
 
+<details><summary>Desktop Wireframes</summary>
+
+[Home page](./wireframes/desktop/Home%20page.png)
+<br>
+[Content pages](./wireframes/desktop/Content%20pages.png)
+<br>
+[Quiz page](./wireframes/desktop/Quiz%20page.png)
+
+</details>
+
+<details><summary>Mobile Wireframes</summary>
+
+[Home page](./wireframes/mobile/Home%20page%20mobile%20wireframe.png)
+<br>
+[Content pages](./wireframes/mobile/Content%20pages%20mobile%20wireframe.png)
+<br>
+[Quiz page](./wireframes/mobile/Quiz%20page%20mobile%20wireframe.png)
+
+</details>
+
+
+
+
 ## Features
 
 * Navigation Bar 
