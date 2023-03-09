@@ -19,9 +19,8 @@
     <!--Logo-->
     <header>
         <a href="index.html" aria-label="Click to be taken back to the homepage (Same tab)">
-            <video id="logo" poster="assets/images/learno-path.webp" width="125px" height="125px" autoplay
-                alt="Learno-Path logo image">
-                <source src="assets/videos/learno-path.mp4" type="video/mp4" alt="Learno-Path logo image animation">
+            <video id="logo" poster="assets/images/learno-path.webp" width="125" height="125" autoplay>
+                <source src="assets/videos/learno-path.mp4" type="video/mp4">
             </video>
         </a>
         <!--Navgiation Bar-->
@@ -43,15 +42,16 @@
                 <a href="#" class="close" onclick="closeMenu()" aria-label="close button for hamburgermenu"><i
                         class="fas fa-times"></i>
                 </a>
-                <li><a href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
-                <li><a href="bacteria.html">Bacteria <i class="fa-solid fa-bacteria"></i></a></li>
-                <li><a href="viruses.html">Viruses <i class="fa-solid fa-virus"></i></a></li>
-                <li><a href="fungi.html">Fungi <i class="fa-solid fa-seedling"></i></a></li>
-                <li><a href="parasites.html">Parasites <i class="fa-solid fa-worm"></i></a></li>
-                <li><a class="active" href="quiz.html">Quiz <i class="fa-solid fa-book-open"></i></a></li>
+                <ul>
+                    <li><a class="active" href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="bacteria.html">Bacteria <i class="fa-solid fa-bacteria"></i></a></li>
+                    <li><a href="viruses.html">Viruses <i class="fa-solid fa-virus"></i></a></li>
+                    <li><a href="fungi.html">Fungi <i class="fa-solid fa-seedling"></i></a></li>
+                    <li><a href="parasites.html">Parasites <i class="fa-solid fa-worm"></i></a></li>
+                    <li><a href="quiz.html">Quiz <i class="fa-solid fa-book-open"></i></a></li>
+                </ul>
 
             </div>
-
 
             <a href="#" class="bars" onclick="openMenu()" aria-label=" bars to open hamburgermenu"><i
                     class="fas fa-bars"></i></a>
@@ -149,9 +149,11 @@
             <h2> 4. Outline the lifecycle of T.Brucei</h2>
             <br>
 
-            <label for="q4" Enter your answer for q4 here></label>
-                <textarea cols="52" rows="5" type="text" name="q4" size="100" required></textarea>
-            
+
+            <label>
+                <textarea cols="52" rows="5" name="q4" required></textarea>
+            </label>
+
             <br>
             <br>
             <h2> 5. What percentage of Covid patients develop severe symptoms</h2>
@@ -178,8 +180,11 @@
             <br>
 
             <label>
-                <input pattern="[A-Za-z]+" placeholder="First Name" type="text" name="fname" required></input>
-                <input pattern="[A-Za-z]+" placeholder="Last Name" type="text" name="lname" required></input>
+                <input pattern="[A-Za-z]+" placeholder="First Name" type="text" name="fname" required>
+            </label>
+
+            <label>
+                <input pattern="[A-Za-z]+" placeholder="Last Name" type="text" name="lname" required>
 
             </label>
 
@@ -190,7 +195,7 @@
             <br>
 
             <label>
-                <input placeholder="youremail@gmail.com" type="email" name="email" required></input>
+                <input placeholder="youremail@gmail.com" type="email" name="email" required>
             </label>
             <br>
             <br>
@@ -205,7 +210,7 @@
     </section>
     <!-- Terms and conditions for quiz-->
 
-    <section class="quiz-conditions">
+    <div class="quiz-conditions">
         <div>
 
             <p>
@@ -254,7 +259,7 @@
 
         <!--Footer-->
 
-    </section>
+    </div>
     <footer>
         <h3> Follow us on social media!</h3>
 

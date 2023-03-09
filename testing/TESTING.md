@@ -64,9 +64,21 @@ Post Development Testing
 
 Validators
 
-HTML [https://validator.w3.org/nu/](https://validator.w3.org/nu/)
+HTML - [https://validator.w3.org/nu/](https://validator.w3.org/nu/)
 
-CSS [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+* All pages tested and no issues found
+
+CSS - [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
+* All pages tested and no issues found
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 Lighthouse Scores:
 
