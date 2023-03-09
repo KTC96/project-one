@@ -103,6 +103,39 @@ Submission page:
 
 <img src="./viruses-desktop.png" width="500px" height="150px">
 
+Mobile:
+
+Home page: 
+
+<img src="" width="500px" height="150px">
+
+Bacteria page:
+
+<img src="" width="500px" height="150px">
+
+Virus page: 
+
+<img src="" width="500px" height="150px">
+
+Fungi page: 
+
+<img src="" width="500px" height="150px">
+
+Parasite page: 
+
+<img src="" width="500px" height="150px">
+
+Quiz page: 
+
+<img src="" width="500px" height="150px">
+
+Submission page: 
+
+<img src="" width="500px" height="150px">
+
+
+
+
 
 
 
