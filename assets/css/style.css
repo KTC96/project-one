@@ -67,7 +67,7 @@ h3 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    font-size: 100%;
+    font-size: 1rem;
 }
 
 #menu {
@@ -117,7 +117,7 @@ h3 {
 
 
 #main-cover {
-    font-size: 100%;
+    font-size: 1rem;
     font-family: DM sans, Helvetica, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -171,7 +171,7 @@ div>h2 {
     color: white;
     text-align: center;
     text-transform: capitalize;
-    font-size: 200%;
+    font-size: 2rem;
 }
 .card-container {
     display: flex;
@@ -201,12 +201,12 @@ a {
 
 
 .card h2 {
-    font-size: 18px;
+    font-size: 1.5rem;
     margin: 20px;
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 1rem;
     color: white;
     margin: 20px;
     line-height: 1.5;
@@ -227,9 +227,10 @@ a {
     padding: 20px;
 }
 
+
 .about p {
     padding: 20px;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -243,6 +244,7 @@ a {
     border-radius: 50%;
     margin-left: 20px;
     background-color: #1b4685;
+    
 }
 
 .profile-image {
@@ -251,6 +253,7 @@ a {
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
+   
 }
 
 
@@ -267,12 +270,12 @@ footer {
 footer h3 {
     text-align: center;
     padding-top: 20px;
-    font-size: 100%;
+    font-size: 1rem;
 
 }
 
 footer p {
-    font-size: 75%;
+    font-size: 0.75rem;
     text-align: center;
     padding-bottom: 15px;
 
@@ -288,7 +291,7 @@ footer p {
 }
 
 .social-networks i {
-    font-size: 25px;
+    font-size: 1.5rem;
     margin: 2.5%;
     color: white;
     text-decoration: none;
@@ -494,7 +497,7 @@ figcaption {
 
 
 .quiz-intro {
-    font-size: 18px;
+    font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
 
@@ -504,7 +507,7 @@ figcaption {
     background-color: rgba(27, 70, 133, 0.9);
     margin-top: 50px;
     padding: 20px;
-    font-size: 35px;
+    font-size: 2rem;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -533,7 +536,7 @@ input {
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
-    font-size: 100%;
+    font-size: 1rem;
     background-color: #fff;
     color: #1b4685;
     display: block;
@@ -604,7 +607,7 @@ input {
     }
 
     #main-cover h3 {
-        font-size: 90%;
+        font-size: 1rem;
     }
     
 }
@@ -613,7 +616,7 @@ input {
 
 
     .about p {
-        font-size: 14px;
+        font-size: 1rem;
         padding: 10px;
     }
 
@@ -679,7 +682,7 @@ input {
 
         .fa-bars,
         .fa-times {
-            font-size: 25px;
+            font-size: 1.5rem;
         }
 
         .fa-times {
@@ -726,7 +729,7 @@ input {
         .hamburgermenu .close {
             width: 20px;
             height: 20px;
-            font-size: 100%;
+            font-size: 1rem;
             margin: 3% 4% 0 0;
         }
     }
@@ -758,7 +761,7 @@ input {
         }
 
         .about p {
-            font-size: 16px;
+            font-size: 1rem;
             margin-top: 20px;
         }
 
@@ -767,12 +770,13 @@ input {
             width: 150px;
             margin-left: 0;
             margin-right: 20px;
+            align-items: center;
         }
 
         /* Bacteria Page */
 
         .bacteria-section h2 {
-            font-size: 24px;
+            font-size: 1.5rem;
             margin-left: 0;
             margin-right: 0;
         }
@@ -805,7 +809,7 @@ input {
         /*Virus Page */
 
         .virus-section h2 {
-            font-size: 24px;
+            font-size: 1.5rem;
             margin-left: 0;
             margin-right: 0;
         }
@@ -844,7 +848,7 @@ input {
 
 
         .fungi-section h2 {
-            font-size: 24px;
+            font-size: 1.5rem;
             margin-left: 0;
             margin-right: 0;
         }
@@ -876,7 +880,7 @@ input {
         /* Parasites Page */
 
         .parasite-section h2 {
-            font-size: 24px;
+            font-size: 1.5rem;
             margin-left: 0;
             margin-right: 0;
         }
@@ -930,7 +934,7 @@ input {
         }
 
         .quiz-intro h2 {
-            font-size: 24px;
+            font-size: 1rem;
             margin-left: 0;
             margin-right: 0;
 
