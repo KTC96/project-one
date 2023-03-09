@@ -57,7 +57,13 @@ Contrast:
 
 I checked the contrast of the text elements of my site, using [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure my site met WCA guidelines.
 
-* [Contrast](./testing/contrast.png)
+<details><summary>Text contrast</summary>
+
+![Contrast](./images/contrast.png)
+
+</details>
+<br>
+
 
 
 Post Development Testing
