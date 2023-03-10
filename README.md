@@ -3,7 +3,7 @@ Learno-Path is a scientific website focused on educating individuals who want to
 
 ![Learno-Path](./testing/images/responsive.png)
 
-[Link to live site](https://ktc96.github.io/project-one-Learno-Path/)
+## [Link to live site](https://ktc96.github.io/project-one-Learno-Path/)
 
 ## Contents
 
