@@ -1,4 +1,4 @@
-Learno-Path
+# Learno-Path
 Learno-Path is a scientific website focused on educating individuals who want to learn more about the worlds deadliest pathogens. Learno-Path provides a range of learning material to allow users of all ages an abilities to delve into the world of pathology.
 
 ![Learno-Path](./testing/images/responsive.png)
