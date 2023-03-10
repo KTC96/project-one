@@ -567,6 +567,10 @@ input {
     width:400px;
 }
 
+.user-data {
+    padding: 5px;
+}
+
 /* Succesful quiz submission page */
 
 .submission-feedback {
